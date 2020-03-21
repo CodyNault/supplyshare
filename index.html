@@ -22,7 +22,7 @@
               <i class="fas fa-bars"></i>
             </button>
             <div class="tm-sidebar-sticky">
-              <div class="tm-brand-box">
+              <div class="tm-brand-box not-on-mobile">
                 <div class="tm-double-border-1">
                   <div class="tm-double-border-2">
                     <h1 class="tm-brand text-uppercase">COVID Supply Share</h1>
@@ -62,7 +62,7 @@
                   </a>
                 </li>
               </ul>
-              <ul class="nav flex-row tm-social-links">
+              <!--<ul class="nav flex-row tm-social-links">
                 <li class="nav-item">
                   <a href="https://facebook.com" class="nav-link tm-social-link">
                     <i class="fab fa-facebook-f"></i>
@@ -89,7 +89,7 @@
                 <p class="mb-0">Design:
                   <a rel="nofollow" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
                 </p>
-              </footer>
+              </footer>-->
             </div>
           </nav>
           
@@ -99,21 +99,38 @@
               data-parallax="scroll"
               data-image-src="img/hexagon-background-header.jpg">
               <section class="tm-section-wrap">
-				  <section id="pre-intro">
-							  <br />
-								  <h2 class="tm-section-title tm-color-light">Bay Area COVID-19 Information Hotline (510) 583-4949</h2>
+				  <section>
+					  <div id="pre-intro">
+					  <div class="center_box mobile-only">
+						  <div class="tm-brand-box">
+							  <div class="tm-double-border-1">
+								  <div class="tm-double-border-2">
+									  <h1 class="tm-brand text-uppercase">COVID Supply Share</h1>
+								  </div>
+							  </div>
+						  </div>
+					  </div>
+					  </div>
+					  <div class="center_box_container" >
+					  	<h2 class="tm-section-title tm-color-light">Bay Area COVID-19 Information Hotline (510) 583-4949</h2>
+					  </div>
+					  <div class="center_box_container mobile-only" >
+						  <p class="tm-section-title tm-color-light">If you have supplies to donate <a href="#have_supply_box">click here</a></p>
+						  <h3 class="tm-section-title tm-color-light">If you are in need of supplies <a href="#need_supply_box">click here</a></h3>
+					  </div>
 				  </section>
-                <section id="intro" class="tm-formsection">
-					<div class="tm-bg-white-transparent tm-intro">
+                <section id="intro" class="tm-formsection row">
+					<div class="tm-bg-white-transparent tm-intro col-xl-6">
+						<div id="need_supply_box" class="tm-section-half">
 						<h2 class="tm-section-title mb-5 text-uppercase tm-color-primary">Need Supplies</h2>
 						<form action="/">
 
 							<label class="tm-color-primary" for="need_phone">Contact Phone Number</label>
-							<input type="text" id="need_phone" name="phone" placeholder="555-123-4567">
+							<input type="text" id="need_phone" name="phone" placeholder="">
 <br/>
 							<label class="tm-color-primary" for="need_email">Contact Email</label>
 							<br/>
-							<input type="text" id="need_email" name="email" placeholder="name@mail.com">
+							<input type="text" id="need_email" name="email" placeholder="">
 
 							<div>
 								<label for="individual" class="tm-color-primary">Who Are You:</label>
@@ -180,16 +197,18 @@
 							<input type="submit" value="Submit">
 
 						</form>
+						</div>
 					</div>
-					<div class="tm-bg-white-transparent tm-intro">
-                        <h2 class="tm-section-title mb-5 text-uppercase tm-color-primary">Have Supplies</h2>
+					<div class="tm-bg-white-transparent tm-intro col-xl-6">
+						<div id="have_supply_box" class="tm-section-half">
+						<h2 class="tm-section-title mb-5 text-uppercase tm-color-primary">Have Supplies</h2>
 						<form action="/">
 
 							<label class="tm-color-primary" for="have_phone">Contact Phone Number</label><br/>
-							<input type="text" id="have_phone" name="phone" placeholder="555-123-4567">
+							<input type="text" id="have_phone" name="phone" placeholder="">
 							<br/>
 							<label class="tm-color-primary" for="have_email">Contact Email</label><br/>
-							<input type="text" id="have_email" name="email" placeholder="name@mail.com">
+							<input type="text" id="have_email" name="email" placeholder="">
 <br/>
 							<div>
 								<label for="need_masks" class="tm-color-primary">What supplies can you donate?:</label><br/>
@@ -232,8 +251,10 @@
 							<input type="submit" value="Submit">
 
 						</form>
+						</div>
                     </div>              
                 </section>
+			  </section>
             </div>            
           </div>
 
@@ -266,25 +287,25 @@
                 <div class="w-100 tm-double-border-1 tm-border-gray">
                     <div class="tm-double-border-2 tm-border-gray tm-box-pad">
                       <div class="tm-gallery-wrap">
-                          <h2 class="tm-color-primary tm-section-title mb-4 ml-2">Important Notes</h2>
+                          <h2 class="tm-color-primary tm-section-title mb-4 ml-2">Supply Shortage</h2>
                           <div class="tm-gallery">
                             <div class="tm-gallery-item">                        
                               <figure class="effect-bubba">
-                                <img src="img/gallery/masks.png" alt="Our Work Image" class="img-fluid">
+                                <img src="img/gallery/mask_diag.jpg" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/masks.png">View more</a>
+                                  <h2>N95 Masks</h2>
+                                  <p>N95 Masks not dust masks</p>
+                                  <a href="img/gallery/mask_diag.jpg">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/masks.png" alt="Our Work Image" class="img-fluid">
+                                <img src="img/gallery/kaiser.jfif" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/masks.png">View more</a>
+                                  <h2>Protective Equipment</h2>
+                                  <p>Kaiser Requesting supplies</p>
+                                  <a href="img/gallery/kaiser.jfif">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
@@ -319,31 +340,31 @@
                           </a>                          
                         </div>
 						  <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
-							  <a href="https://cdc.gov">
-								  <img src="img/US_CDC_logo.png" alt="Client Image" class="img-fluid tm-client-img" />
+							  <a href="https://www.smcgov.org/shelter-place-faqs">
+								  <img src="img/SMC_Seal_2018.png" alt="Client Image" class="img-fluid tm-client-img" />
 							  </a>
 						  </div>
 						  <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
-							  <a href="https://sf.gov/topics/coronavirus-covid-19">
-								  <img src="img/sfgov.svg" alt="Client Image" class="img-fluid tm-client-img" />
+							  <a href="https://www.sccgov.org/sites/phd/DiseaseInformation/novel-coronavirus/Pages/frequently-asked-questions.aspx">
+								  <img src="img/phd_logo.svg" alt="Client Image" class="img-fluid tm-client-img" />
 							  </a>
 						  </div><div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
-						  <a href="https://cdc.gov">
-							  <img src="img/US_CDC_logo.png" alt="Client Image" class="img-fluid tm-client-img" />
+						  <a href="http://www.acphd.org/2019-ncov.aspx">
+							  <img src="img/acphd-logo.jpg" alt="Client Image" class="img-fluid tm-client-img" />
 						  </a>
 					  </div>
 						  <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
-							  <a href="https://sf.gov/topics/coronavirus-covid-19">
-								  <img src="img/sfgov.svg" alt="Client Image" class="img-fluid tm-client-img" />
+							  <a href="https://www.contracosta.ca.gov/">
+								  <img src="img/contra_costa.png" alt="Client Image" class="img-fluid tm-client-img" />
 							  </a>
 						  </div><div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
-						  <a href="https://cdc.gov">
-							  <img src="img/US_CDC_logo.png" alt="Client Image" class="img-fluid tm-client-img" />
+						  <a href="https://www.google.com/covid19/">
+							  <img src="img/google-logo.jpg" alt="Client Image" class="img-fluid tm-client-img" />
 						  </a>
 					  </div>
 						  <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
-							  <a href="https://sf.gov/topics/coronavirus-covid-19">
-								  <img src="img/sfgov.svg" alt="Client Image" class="img-fluid tm-client-img" />
+							  <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">
+								  <img src="img/h-logo-blue.svg" alt="Client Image" class="img-fluid tm-client-img" />
 							  </a>
 						  </div>
                       </div>
